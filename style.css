@@ -1,0 +1,302 @@
+*{
+    padding:0;
+    margin:0;
+    border:0;
+}
+.container{
+    max-width:100%;
+}
+.img{
+    background-image:url("img/pexels-bri-schneiter-346529.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    height:100vh;
+    width:cover;
+    display:block;
+    border:solid 1px red;
+}
+.header{
+    width:100%;
+    height:40px;
+    display:block;
+    display:flex;
+    margin:0 auto;
+    margin-top:15px;
+    box-shadow:0 0 15px red;
+}
+.nav ul{
+    list-style-type:none;
+    display:flex;
+    margin-top:10px;
+    margin-left:100px;
+}
+.nav ul li a{
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+    width:120px;
+    display:block;
+    font-size:18px;
+    font-weight:400;
+    text-align:center;
+    transition-property:all;
+    transition-duration:1s;
+    transition-timing-function:linear;  
+}
+.nav ul li a:hover{
+    color:white;
+    box-shadow: 0 0 15px white;
+}
+.nav ul li{
+    display:block;
+    text-align:center;
+    margin-left:15px;
+}
+.logo{
+    width:100px;
+    height:45px;
+    display:block;
+    margin-left:35px;
+    font-size:20px;
+}
+.logo .white{
+    color:red;
+}
+.login a{
+    border:white 1px solid;
+    border-radius:10px;
+    transition-property:all;
+    transition-duration:1s;
+    transition-timing-function:linear;
+}
+.login a:hover{
+    color:white;
+    box-shadow:0 0 15px black;
+}
+.text-fundo{
+    width:500px;
+    height:220px;
+    display:block;
+    margin-top:105px;
+    margin-left:85px;
+}
+.text-fundo h1{
+    width:500px;
+    height:112px;
+    font-size:120px;
+    color:white;
+}
+.text-fundo p{
+    color:white;
+    margin-top:10px;
+    text-align:justify;
+}
+.text-fundo .btn{
+    width:170px;
+    height:28px;
+    display:block;
+    font-size:21px;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    color:white;
+    margin-top:12px;
+    border:1px solid black;
+    border-radius:15px;
+    background:rgb(250, 2, 2);
+    text-align:center;
+    transition-property:all;
+    transition-duration:1s;
+    transition-timing-function:linear;
+}
+.text-fundo .btn:hover{
+    background:white;
+    color:black;
+    box-shadow:0 0 15px white;
+}
+.part-2{
+    width:100%;
+    height:500px;
+    border:solid 1px red;
+    background:rgb(0, 4, 8);
+    color:white;
+}
+.part-2 .text-{
+    width:60%;
+    height:90px;
+    display:block;
+    border:solid 1px red;
+    margin-top:15px;
+    margin-left:20px;
+}
+.part-2 .text- h2{
+    font-size:28px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.part-2 .text- h2::after{
+    content:"";
+    display:block;
+    background:rgb(253, 253, 253);
+    height:2px;
+    width:200px;
+    
+}
+.part-2 .text- p{
+    text-align:justify;
+}
+.part-2 .cards{
+    width:95%;
+    display:flex;
+    justify-content:space-around;
+}
+.part-2 .cards .card{
+    margin-top:45px;
+    margin-left:15px;
+    border:solid 1px red;
+    width:300px;
+    height:315px;
+    display:block;
+}
+.card span{
+    width:100%;
+    display:block;
+    padding-left:15px;
+    font-size:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.card img{
+    width:100%;
+    height:135px;
+    margin-top:5px;
+}
+.card h2{
+    width:100%;
+    text-align:center;
+}
+.card p{
+    width:55%;
+    text-align:center;
+    margin:0 auto;
+    font-size:14px;
+}
+.card a{
+    text-decoration:none;
+    width:100px;
+    height:25px;
+    display:block;
+    margin:0 auto;
+    padding-top:5px;
+    text-align:center;
+    margin-top:15px;
+    background:rgb(250, 2, 2);
+}
+.card a:hover{
+    background:rgb(209, 61, 61);
+    box-shadow:0 2px 15px red;
+}
+.part-3{
+    background: wheat;
+}
+.part-3 .cabeçalho{
+    width:60%;
+    height:100px;
+    display:block;
+    margin-left:20px;
+    border-left:red 2px solid;
+    padding-top:15px;
+}
+.part-3 .cabeçalho h1{
+    font-size:28px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom:15px;
+}
+.part-3 .cabeçalho p{
+    text-align:justify;
+}
+.conteudo{
+    background:rgb(0, 0, 0);
+    width:750px;
+    height:370px;
+    display:block;
+    border:solid red 1px;
+    margin:0 auto;
+    margin-top:20px;
+}
+.mesclar{
+    width:850px;
+    height:290px;
+    display:block;
+    transform:translate(-100px,43px);
+    display:flex;
+}
+.mesclar .imagem-lado{
+    width:550px;
+    height:100%;
+    display:block;
+    background-image:url("img/pexels-pixabay-33545.jpg");
+    background-size:cover;
+    background-position:cover;
+}
+.mesclar .informações{
+    width:300px;
+    height:100%;
+    display:block;
+    margin-left:15px;
+}
+.informações > span{
+    width:100%;
+    display:block;
+    font-size:24px;
+    color:white;
+    margin-bottom:25px;
+}
+.informações h3{
+    width:150px;
+    display:block;
+    font-size:14px;
+    color:rgb(228, 38, 38);
+    margin-bottom:10px;
+}
+.informações p{
+    text-align:justify;
+    margin-bottom:15px;
+    color:white;
+}
+footer{
+    width:95%;
+    margin:0 auto;
+    border:solid red 1px;
+}
+footer .criador{
+    width:100%;
+    display:block;
+    font-size:16px;
+    color:black;
+    text-align:center;
+}
+footer .redes-sociais{
+    width:40%;
+    display:block;
+    display:flex;
+    align-items:center;
+    margin-left:5px;
+    margin:0 auto;
+    margin-top:15px;
+
+}
+footer .redes-sociais img{
+    width:20px;
+    height:20px;
+    display:block;
+    margin:0 auto; 
+    transition-property:transform;
+    transition-duration:1s;
+    transition-timing-function:linear;
+}
+footer .redes-sociais img:hover{
+    background:red;
+    transform:translate(0, -10px);
+}
+.cor-nome{
+    color:red;
+    text-decoration:underline;
+    font-size:16px;
+    font-style:oblique;
+}
